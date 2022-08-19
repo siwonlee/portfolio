@@ -366,7 +366,7 @@
       <a
         class="btn btn-warning"
         target="_blank"
-        href="https://play.google.com/store/apps/details?id=io.ionic.starter.aplchecker"
+        href="https://play.google.com/store/apps/details?id=io.ionic.siwon2021.aplchecker"
         >download</a
       >
 
