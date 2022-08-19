@@ -25,7 +25,7 @@
           data-width="1280"
           data-gallery="youtubevideos"
         >
-          <img class=" " :src="'../src/assets/img/' + v.img" />
+          <img class=" " :src="'img/' + v.img" />
         </a>
         <div class="px-6 py-4">
           <h3 class="font-bold text-xl mb-2">
@@ -65,7 +65,7 @@
           data-width="1280"
           data-gallery="youtubevideos"
         >
-          <img class=" " :src="'../src/assets/img/' + v.img" />
+          <img class=" " :src="'img/' + v.img" />
         </a>
         <div class="px-6 py-4">
           <h3 class="font-bold text-xl mb-2">
@@ -105,7 +105,7 @@
           data-width="1280"
           data-gallery="youtubevideos"
         >
-          <img class=" " :src="'../src/assets/img/' + v.img" />
+          <img class=" " :src="'img/' + v.img" />
         </a>
         <div class="px-6 py-4">
           <h3 class="font-bold text-xl mb-2">
@@ -142,7 +142,7 @@
         data-width="1280"
         data-gallery="youtubevideos"
       >
-        <img class=" " :src="'../src/assets/img/' + v.img" />
+        <img class=" " :src="'img/' + v.img" />
       </a>
       <div class="px-6 py-4">
         <h3 class="font-bold text-xl mb-2">
