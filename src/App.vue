@@ -5,20 +5,27 @@
 // import Home from "./views/Home.vue";
 // import About from "./views/About.vue";
 // import HelloWorld from "./components/HelloWorld.vue";
+//import VueSidebarMenuAkahon from "vue-sidebar-menu-akahon";
 </script>
 
 <template>
   <div id="mySidebar" class="sidebar">
-    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-    <router-link to="/">Portfolio</router-link>
-    <router-link to="/tutorial">Tutorials </router-link>
+    <div style="height: 83vh">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+      <router-link to="/">Portfolio</router-link>
+      <router-link to="/tutorial">Tutorials </router-link>
+    </div>
 
-    <footer class="lg:text-left">
-      <div class="text-white p-4">
-        Siwon Lee<br />
-        swleeca@gmail.com
+    <div class="profile mt-5">
+      <div class="profile-details">
+        <img src="./assets/img/photo.png" />
+
+        <div class="name_job">
+          <div class="text-white">Siwon Lee</div>
+          <div class="text-white">swleeca@gmail.com</div>
+        </div>
       </div>
-    </footer>
+    </div>
   </div>
   <div id="main">
     <button class="openbtn" onclick="openNav()">☰</button>
@@ -28,7 +35,6 @@
 
 <style>
 .sidebar {
-  height: 100%;
   width: 0px;
   position: fixed;
   z-index: 1;
@@ -38,12 +44,22 @@
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
+
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+
+  transition: all 0.5s ease;
 }
 
 .sidebar a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 15px;
   color: #818181;
   display: block;
   transition: 0.3s;
@@ -84,5 +100,30 @@
   .sidebar a {
     font-size: 18px;
   }
+}
+
+.profile {
+  height: 60px;
+  width: 78px;
+  left: 0px;
+  bottom: 0px;
+  padding: 10px 14px;
+
+  transition: all 0.5s ease;
+}
+.profile {
+  width: 200px;
+}
+.profile-details {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+.sidebar img {
+  height: 45px;
+  width: 45px;
+  object-fit: cover;
+  border-radius: 6px;
+  margin-right: 10px;
 }
 </style>
