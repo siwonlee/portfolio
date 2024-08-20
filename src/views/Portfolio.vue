@@ -5,11 +5,32 @@
 
 
 
+  
+
+
+
+
+
+
+
+  <!-- Project One -->
+
+  <div class="flex mt-6">
+    <!-- <div class="w-3/5" align="center">
+      <a href="#">
+        <img
+          class="mb-3 rounded shadow-lg img-fluid mb-md-0"
+          src="../assets/img/1.jpg"
+          alt=""
+        />
+      </a>
+    </div> -->
+
+     <div class="w-3/5" align="center">
  
 
 
-
-  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -17,14 +38,24 @@
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="d-block w-100" src="../assets/img/1.png" alt="First slide">
+      <img class="d-block w-100" src="../assets/img/1-1.png" alt="First slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="../assets/img/3.png" alt="Second slide">
+      <img class="d-block w-100" src="../assets/img/1-2.png" alt="Second slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="../assets/img/4.png" alt="Third slide">
+      <img class="d-block w-100" src="../assets/img/1-3.png" alt="Third slide">
     </div>
+
+    <div class="carousel-item">
+      <img class="d-block w-100" src="../assets/img/1-4.png" alt="Third slide">
+    </div> 
+       <div class="carousel-item">
+      <img class="d-block w-100" src="../assets/img/1-5.png" alt="Third slide">
+    </div>
+
+
+
   </div>
   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -48,20 +79,11 @@
 
 
 
-  <!-- Project One -->
 
-  <div class="flex mt-6">
-    <div class="w-3/5" align="center">
-      <a href="#">
-        <img
-          class="mb-3 rounded shadow-lg img-fluid mb-md-0"
-          src="../assets/img/1.jpg"
-          alt=""
-        />
-      </a>
+
+
+
     </div>
-
- 
 
 
 
