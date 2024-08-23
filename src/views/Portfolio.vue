@@ -3,16 +3,6 @@
     Siwon's Web and Mobile Portfolio
   </span>
 
-
-
-  
-
-
-
-
-
-
-
   <!-- Project One -->
 
   <div class="flex mt-6">
@@ -26,95 +16,112 @@
       </a>
     </div> -->
 
-     <div class="w-3/5" align="center">
- 
+    <div class="w-3/5" align="center">
+      <!-- carousel start -->
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        data-ride="carousel"
+      >
+        <ol class="carousel-indicators">
+          <li
+            data-target="#carouselExampleIndicators"
+            data-slide-to="0"
+            class="active"
+          ></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              class="d-block w-100"
+              src="../assets/img/1-1.png"
+              alt="First slide"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              class="d-block w-100"
+              src="../assets/img/1-2.png"
+              alt="Second slide"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              class="d-block w-100"
+              src="../assets/img/1-3.png"
+              alt="Third slide"
+            />
+          </div>
 
+          <div class="carousel-item">
+            <img
+              class="d-block w-100"
+              src="../assets/img/1-4.png"
+              alt="Third slide"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              class="d-block w-100"
+              src="../assets/img/1-5.png"
+              alt="Third slide"
+            />
+          </div>
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#carouselExampleIndicators"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#carouselExampleIndicators"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
 
-      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-  </ol>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img class="d-block w-100" src="../assets/img/1-1.png" alt="First slide">
+      <!-- carousel end -->
     </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="../assets/img/1-2.png" alt="Second slide">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="../assets/img/1-3.png" alt="Third slide">
-    </div>
-
-    <div class="carousel-item">
-      <img class="d-block w-100" src="../assets/img/1-4.png" alt="Third slide">
-    </div> 
-       <div class="carousel-item">
-      <img class="d-block w-100" src="../assets/img/1-5.png" alt="Third slide">
-    </div>
-
-
-
-  </div>
-  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    </div>
-
-
-
 
     <div class="w-1/3 mb-6 ml-3 text-left">
       <div class="mb-3 text-2xl font-bold">MD(Maryland) APL Management</div>
-      <p class="mb-3 ">
-        Key Features:
-      </p>
+      <p class="mb-3">Key Features:</p>
 
       <ul class="mb-3 ml-3 list-disc list-outside">
-
-       <li>UPC Review: Approve or deny incoming UPCs from the UPC collector or vendor UPC upload site.</li> 
-       <li>APL Management: Search, edit, and add UPCs to the APL.</li> 
-       <li>Automation: Automate formatting approved UPCs for generating the APL.</li> 
-       <li>Food Category Management: Organize food categories within the APL.</li> 
-       <li>Tools: Includes a check digit checker, UPC-E/UPC-A converter, and an option to reserve deactivation of a UPC.</li> 
-       <li>File Generation: Create the Maryland APL file for MIS (WOW) to send to the EBT processor (SOAR).</li> 
-       
-       
- 
+        <li>
+          UPC Review: Approve or deny incoming UPCs from the UPC collector or
+          vendor UPC upload site.
+        </li>
+        <li>APL Management: Search, edit, and add UPCs to the APL.</li>
+        <li>
+          Automation: Automate formatting approved UPCs for generating the APL.
+        </li>
+        <li>
+          Food Category Management: Organize food categories within the APL.
+        </li>
+        <li>
+          Tools: Includes a check digit checker, UPC-E/UPC-A converter, and an
+          option to reserve deactivation of a UPC.
+        </li>
+        <li>
+          File Generation: Create the Maryland APL file for MIS (WOW) to send to
+          the EBT processor (SOAR).
+        </li>
       </ul>
 
       <p class="mb-3">Target Users : Nutritionists, Vendor Staff</p>
-  
-     
 
-      <a
-        class="btn btn-primary"
-        target="_blank"
-        href="https://md.wicapl.org"
+      <a class="btn btn-primary" target="_blank" href="https://md.wicapl.org"
         >View Project</a
       >
       <a
@@ -151,26 +158,30 @@
       <div class="mb-3 text-2xl font-bold">
         VI(Virgin Islands) APL Management
       </div>
-      <p class="mb-3">
-        Key Features:
-      </p>
+      <p class="mb-3">Key Features:</p>
       <ul class="mb-3 ml-3 list-disc list-outside">
-
-<li>UPC Review: Approve or deny incoming UPCs from the UPC collector or vendor UPC upload site.</li> 
-<li>APL Management: Search, edit, and add UPCs to the APL.</li> 
-<li>Automation: Automate formatting approved UPCs for generating the APL.</li> 
-<li>Food Category Management: Organize food categories within the APL.</li> 
-<li>Tools: Includes a check digit checker, UPC-E/UPC-A converter, and an option to reserve deactivation of a UPC.</li> 
-<li>File Generation: Create the Maryland APL file for MIS (WOW) to send to the EBT processor (SOAR).</li> 
-
-
-
-</ul>
+        <li>
+          UPC Review: Approve or deny incoming UPCs from the UPC collector or
+          vendor UPC upload site.
+        </li>
+        <li>APL Management: Search, edit, and add UPCs to the APL.</li>
+        <li>
+          Automation: Automate formatting approved UPCs for generating the APL.
+        </li>
+        <li>
+          Food Category Management: Organize food categories within the APL.
+        </li>
+        <li>
+          Tools: Includes a check digit checker, UPC-E/UPC-A converter, and an
+          option to reserve deactivation of a UPC.
+        </li>
+        <li>
+          File Generation: Create the Maryland APL file for MIS (WOW) to send to
+          the EBT processor (SOAR).
+        </li>
+      </ul>
       <p class="mb-3">Target users : Nutritionist, Vendor Staff</p>
-      <a
-        class="btn btn-primary"
-        target="_blank"
-        href="https://vi.wicapl.org"
+      <a class="btn btn-primary" target="_blank" href="https://vi.wicapl.org"
         >View Project</a
       >
       <a
@@ -273,8 +284,7 @@
       <a
         class="btn btn-info"
         target="_blank"
-            href="https://wicapl.org/manuals/manual_UPC_Collector_MD_12312018.pdf"
- 
+        href="https://wicapl.org/manuals/manual_UPC_Collector_MD_12312018.pdf"
         >Manual</a
       >
       <a
@@ -304,19 +314,12 @@
     </div>
     <div class="w-1/3 mb-6 ml-3 text-left">
       <div class="mb-3 text-2xl font-bold">Vendor UPC Upload</div>
-      <p class="mb-3">
-        Key Features:
-      </p>
+      <p class="mb-3">Key Features:</p>
       <ul class="mb-3 ml-3 list-disc list-outside">
-
-<li>Single upload / Multiple upcs upload with a file</li> 
-<li>Food Category Search</li> 
-<li>Tools: Includes a check digit checker, UPC-E/UPC-A converter</li> 
- 
-
-
-
-</ul>
+        <li>Single upload / Multiple upcs upload with a file</li>
+        <li>Food Category Search</li>
+        <li>Tools: Includes a check digit checker, UPC-E/UPC-A converter</li>
+      </ul>
       <p class="mb-3">
         Target users : Vendors, manufacturers, suppliers,participants
       </p>
@@ -337,7 +340,7 @@
       <a
         class="btn btn-danger"
         target="_blank"
-        href="https://wicapl.org/tutorial/index_vendor.html
+        href="https://youtu.be/h3WiOUCeOKA?si=s_G7d7xwCKAGnmGA
 "
         >Video</a
       >
@@ -364,12 +367,12 @@
       </p>
       <ul class="mb-3 ml-3 list-disc list-outside">
         <li>
-          In order to update the contents of the Authorized Food List(normally it happens every other year), the state needs to collect new product information 
-          from the manufacturers and food suplliers.  The application helps them to submit their new food product information to the state.
-          </li>
-          <li>
-          
-          </li>
+          In order to update the contents of the Authorized Food List(normally
+          it happens every other year), the state needs to collect new product
+          information from the manufacturers and food suplliers. The application
+          helps them to submit their new food product information to the state.
+        </li>
+        <li></li>
       </ul>
       <p class="mb-3">Target users : manufacturers and suppliers</p>
       <!-- <a
@@ -416,9 +419,11 @@
         The site has been developed for the following purpose(s).
       </p>
       <ul class="mb-3 ml-3 list-disc list-outside">
-        <li>Once the food product upc is submitted, the user can tell wheter it is a Maryland WIC approved item or not.</li>
+        <li>
+          Once the food product upc is submitted, the user can tell wheter it is
+          a Maryland WIC approved item or not.
+        </li>
         <li>Once the camera icon clicked, the upc can be scanned.</li>
-
       </ul>
       <p class="mb-3">Target users : participants, vendors</p>
       <a
@@ -452,9 +457,11 @@
         The site has been developed for the following purpose(s).
       </p>
       <ul class="mb-3 ml-3 list-disc list-outside">
-        <li>Once the food product upc is submitted, the user can tell wheter it is a Virgin Islands WIC approved item or not.</li>
+        <li>
+          Once the food product upc is submitted, the user can tell wheter it is
+          a Virgin Islands WIC approved item or not.
+        </li>
         <li>Once the camera icon clicked, the upc can be scanned.</li>
-
       </ul>
       <p class="mb-3">Target users : participants, vendors</p>
       <a
@@ -470,8 +477,6 @@
 
   <hr />
 
-
-
   <!-- Project Four -->
   <div class="flex mt-3">
     <div class="w-3/5" align="center">
@@ -484,10 +489,6 @@
         />
       </a>
     </div>
-
-
-
-
 
     <div class="w-1/3 mb-6 ml-3 text-left">
       <div class="mb-3 text-2xl font-bold">
@@ -591,12 +592,7 @@
       </ul>
 
       <p class="mb-3">Target users : State WIC Staff</p>
-      <a
-        class="btn btn-primary"
-        target="_blank"
-       
-        >Delisted</a
-      >
+      <a class="btn btn-primary" target="_blank">Project Archived</a>
     </div>
   </div>
   <!-- /.row -->
@@ -614,7 +610,9 @@
       </a>
     </div>
     <div class="w-1/3 mb-6 ml-3 text-left">
-      <div class="mb-3 text-2xl font-bold">Breastfeeding Support Role Site</div>
+      <div class="mb-3 text-2xl font-bold">
+        Local Agency Breastfeeding Support Role Management
+      </div>
       <p class="mb-3">
         The site has been developed for the following purpose(s).
       </p>
@@ -627,17 +625,11 @@
       <p class="mb-3">
         Target users : Breastfeeding coordinators of WIC Local agencies
       </p>
-      <a
-        class="btn btn-primary"
-        target="_blank"
-      
- 
-        >Delisted</a
-      >
+      <a class="btn btn-primary" target="_blank">Project Archived</a>
       <a
         class="btn btn-info"
         target="_blank"
-        href="https://wicapl.org/bf_roles/bf_roles_20180713.pdf
+        href="https://joonspa.com/manuals/bf_roles_20180713.pdf
 "
         >Manual</a
       >
@@ -688,14 +680,70 @@
   <!-- Project 10 -->
   <div class="flex mt-3">
     <div class="w-3/5" align="center">
-      <a href="#">
+      <!-- carousel start -->
+      <div
+        id="carouselExampleIndicators_audit"
+        class="carousel slide"
+        data-ride="carousel"
+      >
+        <ol class="carousel-indicators">
+          <li
+            data-target="#carouselExampleIndicators_audit"
+            data-slide-to="0"
+            class="active"
+          ></li>
+          <li
+            data-target="#carouselExampleIndicators_audit"
+            data-slide-to="1"
+          ></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              class="d-block w-100"
+              src="../assets/img/audit_1.png"
+              alt="First slide"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              class="d-block w-100"
+              src="../assets/img/vendor_audit_img.png"
+              alt="Second slide"
+            />
+          </div>
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#carouselExampleIndicators_audit"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#carouselExampleIndicators_audit"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+
+      <!-- carousel end -->
+
+      <!-- <a href="#">
         <img
           class="mb-3 rounded shadow-lg img-fluid mb-md-0"
           src="../assets/img/vendor_audit_img.png"
           alt=""
         />
-      </a>
+      </a> -->
     </div>
+
     <div class="w-1/3 mb-6 ml-3 text-left">
       <div class="mb-3 text-2xl font-bold">
         Inventory Audit App
@@ -705,8 +753,10 @@
         >
       </div>
       <p class="mb-3">
-        <b>The window based tablet app</b> is used to collect and count inventory audit items on site. The store owner's(or manager's) signiture is
-         required to complete the form. The form is being generated and will be transfered to the web-based Inventory Audit Management Site.
+        <b>The window based tablet app</b> is used to collect and count
+        inventory audit items on site. The store owner's(or manager's) signiture
+        is required to complete the form. The form is being generated and will
+        be transfered to the web-based Inventory Audit Management Site.
       </p>
 
       <p class="mb-3">Target users : Vendor Unit</p>
@@ -714,7 +764,7 @@
       <a
         class="btn btn-info"
         target="_blank"
-        href="https://wicapl.org/vendor_audit/manual_inventory_audit.pdf"
+        href="https://joonspa.com/manuals/manual_inventory_audit.pdf"
         >Manual</a
       >
       <a
@@ -744,12 +794,7 @@
 
       <p class="mb-3">Target users : Vendor Unit</p>
 
-      <a
-        class="btn btn-primary"
-        target="_blank"
-        href="https://wicapl.org/vendor_audit"
-        >View Project</a
-      >
+      <a class="btn btn-primary" target="_blank">Project Archived</a>
     </div>
   </div>
   <!-- /.row -->
@@ -768,21 +813,18 @@
     <div class="w-1/3 mb-6 ml-3 text-left">
       <div class="mb-3 text-2xl font-bold">Data Analysis</div>
       <p class="mb-3">
-        All the signed inventory audit forms are transfered to the site and managed by the staff.   The site generates in-depth reports of APL and transaction data.
+        All the signed inventory audit forms are transfered to the site and
+        managed by the staff. The site generates in-depth reports of APL and
+        transaction data.
       </p>
 
       <p class="mb-3">Target users : WIC Staff</p>
 
-      <a
-        class="btn btn-primary"
-        target="_blank"
-        href="http://siwon.ddns.net/stat"
-        >View Project</a
-      >
+      <a class="btn btn-primary" target="_blank">Project Archived</a>
       <a
         class="btn btn-info"
         target="_blank"
-        href="http://siwon.ddns.net/stat/manual_Data_Analysis_20200211.pdf"
+        href="http://joonspa.com/manuals/manual_Data_Analysis_20200211.pdf"
         >Manual</a
       >
       <a
@@ -795,11 +837,65 @@
   </div>
   <!-- /.row -->
 
-
-
   <!-- Project 10 -->
   <div class="flex mt-3">
     <div class="w-3/5" align="center">
+      <!-- carousel start -->
+      <div
+        id="carouselExampleIndicators_nupc"
+        class="carousel slide"
+        data-ride="carousel"
+      >
+        <ol class="carousel-indicators">
+          <li
+            data-target="#carouselExampleIndicators_nupc"
+            data-slide-to="0"
+            class="active"
+          ></li>
+          <li
+            data-target="#carouselExampleIndicators_nupc"
+            data-slide-to="1"
+          ></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              class="d-block w-100"
+              src="../assets/img/nupc-1.png"
+              alt="First slide"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              class="d-block w-100"
+              src="../assets/img/nupc-2.png"
+              alt="Second slide"
+            />
+          </div>
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#carouselExampleIndicators_nupc"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#carouselExampleIndicators_nupc"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+
+      <!-- carousel end -->
+    </div>
+    <!-- 
       <a href="#">
         <img
           class="mb-3 rounded shadow-lg img-fluid mb-md-0"
@@ -807,11 +903,106 @@
           alt=""
         />
       </a>
+     -->
+
+    <div class="w-1/3 mb-6 ml-3 text-left">
+      <div class="mb-3 text-2xl font-bold">Nationwide APL Checker</div>
+      <p class="mb-3">
+        WIC APL Checker is the PWA on nationwide WIC APL(Currently, as of
+        5/1/2024, 23 states' APLs have been collected and used as the search
+        data source ). The user can check whether the food item is WIC approved
+        or not. The item's upc can be typed into the text input field or scanned
+        by the camera byclicking the camera button.
+      </p>
+
+      <p class="mb-3">Target users : Public use</p>
+
+      <a class="btn btn-primary" target="_blank" href="http://nupc.joonspa.com"
+        >View Project</a
+      >
+
+      <a
+        class="btn btn-danger"
+        target="_blank"
+        href="https://github.com/siwonlee/apl_all"
+        >github</a
+      >
     </div>
+  </div>
+  <!-- /.row -->
+
+  <!-- Project 10 -->
+  <div class="flex mt-3">
+    <div class="w-3/5" align="center">
+      <!-- carousel start -->
+      <div
+        id="carouselExampleIndicators_dexcom"
+        class="carousel slide"
+        data-ride="carousel"
+      >
+        <ol class="carousel-indicators">
+          <li
+            data-target="#carouselExampleIndicators_dexcom"
+            data-slide-to="0"
+            class="active"
+          ></li>
+          <li
+            data-target="#carouselExampleIndicators_dexcom"
+            data-slide-to="1"
+          ></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              class="d-block w-100"
+              src="../assets/img/dexcom1.png"
+              alt="First slide"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              class="d-block w-100"
+              src="../assets/img/dexcom2.png"
+              alt="Second slide"
+            />
+          </div>
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#carouselExampleIndicators_dexcom"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#carouselExampleIndicators_dexcom"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+
+      <!-- carousel end -->
+    </div>
+    <!-- 
+      <a href="#">
+        <img
+          class="mb-3 rounded shadow-lg img-fluid mb-md-0"
+          src="../assets/img/dexcom1.png"
+          alt=""
+        />
+      </a>
+     -->
+
     <div class="w-1/3 mb-6 ml-3 text-left">
       <div class="mb-3 text-2xl font-bold">CGM(Dexcom) realtime display</div>
       <p class="mb-3">
-        Realtime glucose level display on the web for the Dexcom user. 
+        Realtime glucose level display on the web for the Dexcom user.
       </p>
 
       <p class="mb-3">Target users : Personal use</p>
@@ -822,77 +1013,53 @@
         href="http://joonspa.com/dexcom"
         >View Project</a
       >
- 
-      <a
-        class="btn btn-danger"
-        target="_blank"
-        href=" "
-        >github</a
-      >
+
+      <a class="btn btn-danger" target="_blank" href=" ">github</a>
     </div>
   </div>
   <!-- /.row -->
-
-
-
- 
- 
-
-
-
-
-
-
-
-
 </template>
 
 <style scoped>
-.btn {
-  @apply py-2 px-4 rounded mr-1;
-}
-.btn-primary {
-  @apply bg-blue-500 text-white;
-}
-.btn-primary:hover {
-  @apply bg-blue-700;
-}
+  .btn {
+    @apply py-2 px-4 rounded mr-1;
+  }
+  .btn-primary {
+    @apply bg-blue-500 text-white;
+  }
+  .btn-primary:hover {
+    @apply bg-blue-700;
+  }
 
-.btn-info {
-  @apply bg-green-500 text-white;
-}
-.btn-info:hover {
-  @apply bg-green-700;
-}
+  .btn-info {
+    @apply bg-green-500 text-white;
+  }
+  .btn-info:hover {
+    @apply bg-green-700;
+  }
 
-.btn-danger {
-  @apply bg-red-500 text-white;
-}
-.btn-danger:hover {
-  @apply bg-red-700;
-}
+  .btn-danger {
+    @apply bg-red-500 text-white;
+  }
+  .btn-danger:hover {
+    @apply bg-red-700;
+  }
 
-.btn-warning {
-  @apply bg-yellow-500 text-white;
-}
-.btn-warning:hover {
-  @apply bg-yellow-700;
-}
-
-
-
- 
- 
+  .btn-warning {
+    @apply bg-yellow-500 text-white;
+  }
+  .btn-warning:hover {
+    @apply bg-yellow-700;
+  }
 </style>
 
-
-
- 
 <script>
-export default {
-  
-  name: "Portfolio",
-};
+  export default {
+    name: "Portfolio",
+  };
 
-$('.carouselExampleIndicators').carousel();
+  $(".carouselExampleIndicators").carousel();
+  $(".carouselExampleIndicators_dexcom").carousel();
+  $(".carouselExampleIndicators_nupc").carousel();
+  $(".carouselExampleIndicators_audit").carousel();
 </script>
