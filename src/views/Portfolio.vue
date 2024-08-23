@@ -272,15 +272,14 @@
         >
       </div>
       <p class="mb-3">
-        <span class="text-base font-bold"
-          >The window tablet based application</span
-        >
-        to collect upcs at the stores with the attached barcode scanner and to
-        generate an Excel and a SQL file for uploading the collected upcs to the
-        APL Management site.
+        <span class="text-base font-bold">The web based PWA application</span>
+        to collect upcs at the stores with the attached bluetooth barcode
+        scanner or with the embeded barcode plugin and to upload them to the APL
+        Management site.
       </p>
 
       <p class="mb-3">Target users : Nutritionist, Vendor Staff</p>
+
       <a
         class="btn btn-info"
         target="_blank"
@@ -300,6 +299,213 @@
 
   <hr />
 
+  <!-- Project Three -->
+  <div class="flex mt-3">
+    <div class="w-3/5" align="center">
+      <!-- carousel start -->
+      <div
+        id="carouselExampleIndicators_collect"
+        class="carousel slide"
+        data-ride="carousel"
+      >
+        <ol class="carousel-indicators">
+          <li
+            data-target="#carouselExampleIndicators_collect"
+            data-slide-to="0"
+            class="active"
+          ></li>
+          <li
+            data-target="#carouselExampleIndicators_collect"
+            data-slide-to="1"
+          ></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              class="d-block w-100"
+              src="../assets/img/collect1.png"
+              alt="First slide"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              class="d-block w-100"
+              src="../assets/img/collect2.png"
+              alt="Second slide"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              class="d-block w-100"
+              src="../assets/img/collect3.png"
+              alt="Second slide"
+            />
+          </div>
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#carouselExampleIndicators_collect"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#carouselExampleIndicators_collect"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+
+      <!-- carousel end -->
+
+      <!-- <a href="#">
+        <img
+          class="mb-3 rounded shadow-lg img-fluid mb-md-0"
+          src="../assets/img/3.png"
+          alt=""
+        />
+      </a> -->
+    </div>
+
+    <div class="w-1/3 mb-6 ml-3 text-left">
+      <div class="mb-3 text-2xl font-bold">UPC Collect(for Maryland)</div>
+      <p class="mb-3">
+        <span class="text-base font-bold">The web based PWA application</span>
+        to collect upcs at the stores with the attached bluetooth barcode
+        scanner or with the embeded barcode plugin and to upload them to the APL
+        Management site.
+      </p>
+
+      <p class="mb-3">Target users : Nutritionist, Vendor Staff</p>
+      <a
+        class="btn btn-primary"
+        target="_blank"
+        href="https://collect.wicapl.org
+"
+        >View Project</a
+      >
+      <a
+        class="btn btn-info"
+        target="_blank"
+        href="https://collect.wicapl.org/storage/upc_collect_manual.pdf"
+        >Manual</a
+      >
+      <!-- <a class="btn btn-danger" target="_blank">Video</a> -->
+    </div>
+  </div>
+  <!-- /.row -->
+
+  <hr />
+
+  <!-- Project Three -->
+  <div class="flex mt-3">
+    <div class="w-3/5" align="center">
+      <!-- carousel start -->
+      <div
+        id="carouselExampleIndicators_collect_vi"
+        class="carousel slide"
+        data-ride="carousel"
+      >
+        <ol class="carousel-indicators">
+          <li
+            data-target="#carouselExampleIndicators_collect_vi"
+            data-slide-to="0"
+            class="active"
+          ></li>
+          <li
+            data-target="#carouselExampleIndicators_collect_vi"
+            data-slide-to="1"
+          ></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              class="d-block w-100"
+              src="../assets/img/collect1-1.png"
+              alt="First slide"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              class="d-block w-100"
+              src="../assets/img/collect2.png"
+              alt="Second slide"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              class="d-block w-100"
+              src="../assets/img/collect3.png"
+              alt="Second slide"
+            />
+          </div>
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#carouselExampleIndicators_collect_vi"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#carouselExampleIndicators_collect_vi"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+
+      <!-- carousel end -->
+
+      <!-- <a href="#">
+        <img
+          class="mb-3 rounded shadow-lg img-fluid mb-md-0"
+          src="../assets/img/3.png"
+          alt=""
+        />
+      </a> -->
+    </div>
+
+    <div class="w-1/3 mb-6 ml-3 text-left">
+      <div class="mb-3 text-2xl font-bold">UPC Collect(for Virgin Islands)</div>
+      <p class="mb-3">
+        <span class="text-base font-bold">The web based PWA application</span>
+        to collect upcs at the stores with the attached barcode scanner or with
+        the embeded barcode scanner and to upload them to the APL Management
+        site.
+      </p>
+
+      <p class="mb-3">Target users : Nutritionist, Vendor Staff</p>
+      <a
+        class="btn btn-primary"
+        target="_blank"
+        href="https://vicollect.wicapl.org
+"
+        >View Project</a
+      >
+      <a
+        class="btn btn-info"
+        target="_blank"
+        href="https://vicollect.wicapl.org/storage/upc_collect_manual.pdf"
+        >Manual</a
+      >
+      <!-- <a class="btn btn-danger" target="_blank">Video</a> -->
+    </div>
+  </div>
+  <!-- /.row -->
+
+  <hr />
   <!-- Project Four -->
   <div class="flex mt-3">
     <div class="w-3/5" align="center">
@@ -1062,4 +1268,6 @@
   $(".carouselExampleIndicators_dexcom").carousel();
   $(".carouselExampleIndicators_nupc").carousel();
   $(".carouselExampleIndicators_audit").carousel();
+  $(".carouselExampleIndicators_collect").carousel();
+  $(".carouselExampleIndicators_collect_vi").carousel();
 </script>
