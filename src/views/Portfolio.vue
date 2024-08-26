@@ -1220,7 +1220,7 @@
         >View Project</a
       >
 
-      <a class="btn btn-danger" target="_blank" href=" ">github</a>
+      <a class="btn btn-danger" target="_blank" href="https://github.com/siwonlee/dexcom_web">github</a>
     </div>
   </div>
   <!-- /.row -->
