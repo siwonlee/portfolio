@@ -11,12 +11,12 @@
 <template>
   <div id="mySidebar" class="sidebar">
     <div style="height: 83vh">
-      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
       <router-link to="/">Portfolio</router-link>
       <router-link to="/tutorial">Tutorials </router-link>
     </div>
 
-    <div class="profile mt-5">
+    <div class="mt-5 profile">
       <div class="profile-details">
         <img src="./assets/img/photo.png" />
 

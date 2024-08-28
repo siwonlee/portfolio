@@ -1,12 +1,12 @@
 <template>
-  <span class="text-3xl font-bold mt-10 mb-6 pt-10 text-center">
+  <span class="pt-10 mt-10 mb-6 text-3xl font-bold text-center">
     Project Tutorial Videos
   </span>
 
   <div
-    class="bg-teal-100 border-t-4 border-teal-500 rounded-b text-teal-900 px-4 py-3 shadow-md mt-5 mb-5"
+    class="px-4 py-3 mt-5 mb-5 text-teal-900 bg-teal-100 border-t-4 border-teal-500 rounded-b shadow-md"
   >
-    <h1 class="font-bold text-xl">
+    <h1 class="text-xl font-bold">
       APL Management
       <small> </small>
     </h1>
@@ -14,7 +14,7 @@
 
   <div class="grid grid-cols-3 gap-2 mx-auto">
     <div
-      class="w-full rounded max-w-sm rounded overflow-hidden shadow-lg"
+      class="w-full max-w-sm overflow-hidden rounded shadow-lg"
       v-for="v in data"
       :key="v.id"
     >
@@ -25,17 +25,17 @@
           data-width="1280"
           data-gallery="youtubevideos"
         >
-          <img class=" " :src="'img/' + v.img" />
+          <img class="" :src="'img/' + v.img" />
         </a>
         <div class="px-6 py-4">
-          <h3 class="font-bold text-xl mb-2">
-            <a href="#">{{ v.title }}</a>
+          <h3 class="mb-2 text-xl font-bold">
+            <a :href="v.youtube" target="_blank">{{ v.title }}</a>
           </h3>
-          <p class="text-gray-700 text-base">{{ v.description }}</p>
+          <p class="text-base text-gray-700">{{ v.description }}</p>
         </div>
 
         <div class="px-6 pt-4 pb-2">
-          <small class="text-sm text-gray-700 mr-2 mb-2"
+          <small class="mb-2 mr-2 text-sm text-gray-700"
             >Uploaded on {{ v.uploaddate }}
           </small>
         </div>
@@ -44,9 +44,9 @@
   </div>
 
   <div
-    class="bg-teal-100 border-t-4 border-teal-500 rounded-b text-teal-900 px-4 py-3 shadow-md mt-5 mb-5"
+    class="px-4 py-3 mt-5 mb-5 text-teal-900 bg-teal-100 border-t-4 border-teal-500 rounded-b shadow-md"
   >
-    <h1 class="font-bold text-xl">
+    <h1 class="text-xl font-bold">
       UPC Collector
       <small> </small>
     </h1>
@@ -54,7 +54,7 @@
 
   <div class="grid grid-cols-3 gap-2 mx-auto">
     <div
-      class="w-full rounded max-w-sm rounded overflow-hidden shadow-lg"
+      class="w-full max-w-sm overflow-hidden rounded shadow-lg"
       v-for="v in data2"
       :key="v.id"
     >
@@ -65,17 +65,17 @@
           data-width="1280"
           data-gallery="youtubevideos"
         >
-          <img class=" " :src="'img/' + v.img" />
+          <img class="" :src="'img/' + v.img" />
         </a>
         <div class="px-6 py-4">
-          <h3 class="font-bold text-xl mb-2">
-            <a href="#">{{ v.title }}</a>
+          <h3 class="mb-2 text-xl font-bold">
+            <a :href="v.youtube" target="_blank">{{ v.title }}</a>
           </h3>
-          <p class="text-gray-700 text-base">{{ v.description }}</p>
+          <p class="text-base text-gray-700">{{ v.description }}</p>
         </div>
 
         <div class="px-6 pt-4 pb-2">
-          <small class="text-sm text-gray-700 mr-2 mb-2"
+          <small class="mb-2 mr-2 text-sm text-gray-700"
             >Uploaded on {{ v.uploaddate }}
           </small>
         </div>
@@ -84,9 +84,9 @@
   </div>
 
   <div
-    class="bg-teal-100 border-t-4 border-teal-500 rounded-b text-teal-900 px-4 py-3 shadow-md mt-5 mb-5"
+    class="px-4 py-3 mt-5 mb-5 text-teal-900 bg-teal-100 border-t-4 border-teal-500 rounded-b shadow-md"
   >
-    <h1 class="font-bold text-xl">
+    <h1 class="text-xl font-bold">
       UPC Upload
       <small> </small>
     </h1>
@@ -94,7 +94,7 @@
 
   <div class="grid grid-cols-3 gap-2 mx-auto">
     <div
-      class="w-full rounded max-w-sm rounded overflow-hidden shadow-lg"
+      class="w-full max-w-sm overflow-hidden rounded shadow-lg"
       v-for="v in data3"
       :key="v.id"
     >
@@ -105,17 +105,17 @@
           data-width="1280"
           data-gallery="youtubevideos"
         >
-          <img class=" " :src="'img/' + v.img" />
+          <img class="" :src="'img/' + v.img" />
         </a>
         <div class="px-6 py-4">
-          <h3 class="font-bold text-xl mb-2">
-            <a href="#">{{ v.title }}</a>
+          <h3 class="mb-2 text-xl font-bold">
+            <a :href="v.youtube" target="_blank">{{ v.title }}</a>
           </h3>
-          <p class="text-gray-700 text-base">{{ v.description }}</p>
+          <p class="text-base text-gray-700">{{ v.description }}</p>
         </div>
 
         <div class="px-6 pt-4 pb-2">
-          <small class="text-sm text-gray-700 mr-2 mb-2"
+          <small class="mb-2 mr-2 text-sm text-gray-700"
             >Uploaded on {{ v.uploaddate }}
           </small>
         </div>
@@ -123,16 +123,16 @@
     </div>
   </div>
   <div
-    class="bg-teal-100 border-t-4 border-teal-500 rounded-b text-teal-900 px-4 py-3 shadow-md mt-5 mb-5"
+    class="px-4 py-3 mt-5 mb-5 text-teal-900 bg-teal-100 border-t-4 border-teal-500 rounded-b shadow-md"
   >
-    <h1 class="font-bold text-xl">
+    <h1 class="text-xl font-bold">
       Other projects
       <small> </small>
     </h1>
   </div>
   <div class="grid grid-cols-3 gap-2 mx-auto">
     <div
-      class="w-full rounded max-w-sm rounded overflow-hidden shadow-lg"
+      class="w-full max-w-sm overflow-hidden rounded shadow-lg"
       v-for="v in data4"
       :key="v.id"
     >
@@ -142,17 +142,17 @@
         data-width="1280"
         data-gallery="youtubevideos"
       >
-        <img class=" " :src="'img/' + v.img" />
+        <img class="" :src="'img/' + v.img" />
       </a>
       <div class="px-6 py-4">
-        <h3 class="font-bold text-xl mb-2">
-          <a href="#">{{ v.title }}</a>
+        <h3 class="mb-2 text-xl font-bold">
+          <a :href="v.youtube" target="_blank">{{ v.title }}</a>
         </h3>
-        <p class="text-gray-700 text-base">{{ v.description }}</p>
+        <p class="text-base text-gray-700">{{ v.description }}</p>
       </div>
 
       <div class="px-6 pt-4 pb-2">
-        <small class="text-sm text-gray-700 mr-2 mb-2"
+        <small class="mb-2 mr-2 text-sm text-gray-700"
           >Uploaded on {{ v.uploaddate }}
         </small>
       </div>
