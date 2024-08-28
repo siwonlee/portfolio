@@ -19,7 +19,8 @@
       :key="v.id"
     >
       <div v-show="v.pid == 1">
-        <a :href="v.youtube" target="_blank">
+        <!-- <a :href="v.youtube" target="_blank"> -->
+        <a :href="v.youtube" data-toggle="lightbox">
           <img class="" :src="'img/' + v.img" />
         </a>
         <div class="px-6 py-4">
@@ -54,7 +55,7 @@
       :key="v.id"
     >
       <div v-show="v.pid == 2">
-        <a :href="v.youtube" target="_blank">
+        <a :href="v.youtube" data-toggle="lightbox">
           <img class="" :src="'img/' + v.img" />
         </a>
         <div class="px-6 py-4">
@@ -89,7 +90,7 @@
       :key="v.id"
     >
       <div v-show="v.pid == 3">
-        <a :href="v.youtube" target="_blank">
+        <a :href="v.youtube" data-toggle="lightbox">
           <img class="" :src="'img/' + v.img" />
         </a>
         <div class="px-6 py-4">
@@ -121,7 +122,7 @@
       v-for="v in data4"
       :key="v.id"
     >
-      <a :href="v.youtube" target="_blank">
+      <a :href="v.youtube" data-toggle="lightbox">
         <img class="" :src="'img/' + v.img" />
       </a>
       <div class="px-6 py-4">
