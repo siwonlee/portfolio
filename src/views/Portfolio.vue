@@ -1285,8 +1285,12 @@
           >View Project</a
         >
 
+<<<<<<< HEAD
         <a class="btn btn-danger" target="_blank" href=" ">github</a>
       </div>
+=======
+      <a class="btn btn-danger" target="_blank" href="https://github.com/siwonlee/dexcom_web">github</a>
+>>>>>>> 54f370be827d880c29666f04a165e7dea1e97978
     </div>
   </div>
   <!-- /.row -->
