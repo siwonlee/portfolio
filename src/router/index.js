@@ -1,5 +1,5 @@
 import { createRouter, createWebHistory } from "vue-router";
-import Portfolio from "@/views/Portfolio.vue";
+import Portfolio from "@/views/Portfolio_old.vue";
 import Tutorial from "@/views/Tutorial.vue";
 
 const routes = [
