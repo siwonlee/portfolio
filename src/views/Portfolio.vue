@@ -1291,7 +1291,6 @@
           href="https://github.com/siwonlee/dexcom_web"
           >github</a
         >
-        
       </div>
     </div>
   </div>
